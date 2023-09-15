@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Heebo', sans-serif;
+}
+ @layer components{
+
+  .hero-con{
+    z-index: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 80rem/* 1280px */;
+    gap: 1rem/* 16px */;
+    padding: 1rem/* 16px */;
+  }
+  
+
+ }
